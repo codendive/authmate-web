@@ -30,7 +30,7 @@ const RootLayout = ({
   children: React.ReactNode
 }>) => {
   return (
-    <ClerkProvider>
+    <ClerkProvider signInForceRedirectUrl='/post-login'>
       <html lang='en'>
         <body
           className={`${geistSans.variable} ${geistMono.variable} antialiased`}
